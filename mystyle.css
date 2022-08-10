@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+
+
+#headerDiv {
+    background-color: #1F2937;
+    height: 30px;
+    display: flex;
+}
+
+#headerLogo {
+    font-size: 24px;
+    color: #f9FAf8;
+    margin-right: 50%;
+    margin-left: 30px;
+}
+
+.headerIcons {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 10px;
+}
+
+#awesomeTextDiv {
+    background-color: #1F2937;
+    height: 300px;
+    display: flex;
+}
+
+#firstBlockDiv {
+    height: 400px;
+    background-color: white;
+}
+
+#cloudBlock {
+    display: flex;
+    align-items: center;
+}
+
+#awesomeWebsiteFont {
+    font: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#awesomeWebsiteSubfont {
+    font: 18px;
+    color: #E5E7EB;
+}
+
+#awesomeWebsiteFontBlock {
+    margin: 30px;
+    margin-top: 60px;
+}
+
+#firstButton {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+}
+
+#randomInformation {
+    font: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.photoSubtext {
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+#footerDiv {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#awesomeWebsiteBlock {
+    width: 50%;
+}
+
+.photoBox {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 30px;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cloudPhoto {
+    height: 300px;
+    width: 600px;
+    flex-shrink: 4;
+    margin: 20px;
+}
+
+#quoteDiv {
+    background-color: #E5E7EB;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inspirationalQuote {
+    text-align: center;
+    font: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 40px;
+}
+
+#cloudPhoto {
+    position: absolute;
+    left: 60%;
+    float: right;
+}
+
+.photoDiv {
+    margin: 3%;
+    width: 200px;
+    float: left;
+}
+
+.awesomeWebsiteBlock {
+    float: left;
+    width: 50%;
+}
+
+#photoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#placardDiv {
+    background-color: #3882F6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: stretch;
+}
+
+#secondButton {
+    font-weight: 800;
+    border: 2px solid white;
+    background-color: #3882F6;
+    border-radius: 3px;
+}
+
+.placardFont {
+    color: white;
+    margin-right: 200px;
+}
+
+.placardBox {
+align-items: center;
+}
+
+#placardFont {
+    flex: 2;
+}
+
+#placardButton {
+    flex: 1;
+}
